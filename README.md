@@ -36,11 +36,11 @@ docker build -t datagram-cli .
 ```
 ### 5. Run Datagram CLI-node
 ```shell
-docker run -it datagram-cli run -- -key <your-license-key>
+docker run --rm datagram-cli run -- -key <your-license-key>
 ```
 if you wanna set max cpu & memory usage:
 ```shell
-docker run -it --cpus="2" --memory="4g" --rm datagram-cli run -- -key <your-license-key>
+docker run --rm --cpus="2" --memory="4g" --rm datagram-cli run -- -key <your-license-key>
 ```
 > This example for max cpu 2 core and 4 gb memory usage. 
 
@@ -65,7 +65,7 @@ docker build -t datagram-cli .
 ```
 #### 2. Run Datagram CLI-node
 ```shell
-docker run -it datagram-cli run -- -key <your-license-key>
+docker run --rm datagram-cli run -- -key <your-license-key>
 ```
 Happy testing ..
 

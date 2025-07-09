@@ -40,7 +40,7 @@ docker run --rm datagram-cli run -- -key <your-license-key>
 ```
 if you wanna set max cpu & memory usage:
 ```shell
-docker run --rm --cpus="2" --memory="4g" --rm datagram-cli run -- -key <your-license-key>
+docker run --rm --cpus="2" --memory="4g" datagram-cli run -- -key <your-license-key>
 ```
 > This example for max cpu 2 core and 4 gb memory usage. 
 
